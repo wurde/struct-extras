@@ -1,0 +1,25 @@
+{
+  "name": "struct-extras",
+  "version": "0.1.0",
+  "description": "A superstruct with extra types.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --no-colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wurde/struct-extras.git"
+  },
+  "keywords": [
+    "struct",
+    "types",
+    "validation",
+    "validator"
+  ],
+  "author": "Andy Bettisworth <andy@accreu.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wurde/struct-extras/issues"
+  },
+  "homepage": "https://github.com/wurde/struct-extras#readme"
+}
