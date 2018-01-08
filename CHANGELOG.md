@@ -12,11 +12,12 @@ Changes are categorized as follows:
 
 ## [Unreleased]
 
-* 3 minor enhancements:
+* 4 minor enhancements:
 
   * Add CHANGELOG
   * Add LICENSE
   * Add README
+  * deps: add superstruct
 
 ## 2018-01-08, Version 0.1.0 (unstable)
 
