@@ -12,6 +12,12 @@ Changes are categorized as follows:
 
 ## [Unreleased]
 
+## 2018-01-08, Version 1.0.0
+
+* 1 major enhancement:
+
+  * Add validators for custom types
+
 * 4 minor enhancements:
 
   * Add CHANGELOG
