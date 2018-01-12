@@ -21,6 +21,11 @@ describe("struct", () => {
     assert.ok(true)
   })
 
+  it("should have validator string_or_null", () => {
+    let strong_param = struct({name: 'string_or_null?'})
+    assert.ok(true)
+  })
+
   it("should have validator string_or_boolean_or_null", () => {
     let strong_param = struct({has_role: 'string_or_boolean_or_null?'})
     assert.ok(true)
@@ -31,8 +36,8 @@ describe("struct", () => {
     assert.ok(true)
   })
 
-  it("should have validator string_or_null", () => {
-    let strong_param = struct({name: 'string_or_null?'})
+  it("should have validator string_or_object_or_null", () => {
+    let strong_param = struct({has_role: 'string_or_object_or_null?'})
     assert.ok(true)
   })
 

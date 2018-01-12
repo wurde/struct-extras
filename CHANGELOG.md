@@ -12,6 +12,12 @@ Changes are categorized as follows:
 
 ## [Unreleased]
 
+## 2018-01-12, Version 1.1.0
+
+* 1 minor enhancement:
+
+  * Add string_or_object_or_null validator
+
 ## 2018-01-08, Version 1.0.0
 
 * 1 major enhancement:

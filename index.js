@@ -19,8 +19,15 @@ const struct = superstruct.superstruct({
         return false
       }
     },
+    string_or_null: (value) => {
+      if (value === null || value === undefined || value.constructor === String) {
+        return true
+      } else {
+        return false
+      }
+    },
     string_or_boolean_or_null: (value) => {
-      if (value === null || value === undefined || value.constructor === Boolean || value.constructor === String) {
+      if (value === null || value === undefined || value.constructor === String || value.constructor === Boolean) {
         return true
       } else {
         return false
@@ -33,8 +40,8 @@ const struct = superstruct.superstruct({
         return false
       }
     },
-    string_or_null: (value) => {
-      if (value === null || value === undefined || value.constructor === String) {
+    string_or_object_or_null: (value) => {
+      if (value === null || value === undefined || value.constructor === String || value.constructor === Object) {
         return true
       } else {
         return false
